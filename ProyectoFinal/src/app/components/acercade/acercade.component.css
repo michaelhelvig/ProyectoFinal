@@ -4,4 +4,41 @@
 
 div{
     background-color: #a1b5cb;
+    text-align: center;
+}
+
+#nombre{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#subnombre{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*profile picture*/
+@media (min-width: 576px){
+    #pp{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px
+    }
+}
+
+@media (max-width: 575px){
+    #pp{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 36%;
+        top: 665px;
+    }
+
 }
